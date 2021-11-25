@@ -19,7 +19,9 @@ IMPORTANT INFO:
 
  - For security reasons, there is no FTP information inside any of the files (just mock examples). You have to edit with your own information for the files to work, or use the ADScriptGen, which will ask for that info before prompting for the custom options.
 
- - Both scripts (generator, and generated downloader) are Unix Executable files, meant to run on macOS. You're more than welcome to use the Python files to turn them into Window's executables if needed, and I would love some feedback if you do! =)
+ - Both scripts (generator, and generated downloader) are Unix Executable files, meant to run on macOS. If macOS is not recognizing the file type then you need to set it to open with Terminal.
+
+ - You're more than welcome to use the Python files to turn them into Windows executables if needed, and I would love some feedback if you do! =)
 <br><br>
 
 Files and descriptions:
@@ -36,3 +38,6 @@ Files and descriptions:
 
 4. ExampleCode.py:
  - Python code for the autodownExample file.
+<br><br>
+
+ Feedback and comments are more than welcome! Thanks for reading, hope you have fun with this little script!
