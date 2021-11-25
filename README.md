@@ -17,20 +17,22 @@ The generated scripts are autoexecutable files that connect to a certain FTP add
 
 IMPORTANT INFO:
 
- - For security reasons, there is no FTP information inside any of the files (just mock examples). You have to provide your own for the files to work, or use the ADScriptGen and 
+ - For security reasons, there is no FTP information inside any of the files (just mock examples). You have to edit with your own information for the files to work, or use the ADScriptGen, which will ask for that info before prompting for the custom options.
+
+ - Both scripts (generator, and generated downloader) are Unix Executable files, meant to run on macOS. You're more than welcome to use the Python files to turn them into Window's executables if needed, and I would love some feedback if you do! =)
 <br><br>
 
 Files and descriptions:
 
 1. ADScriptGen:
- - Autoexecutible version of the script generator. It's going to ask you a few questions and then create your custom downloader!
+ - Autoexecutable version of the script generator. It's going to ask you a few questions and then create your custom downloader!
 
 2. ScriptCode.py:
  - Python code for the ADScriptGen file.
 
 3. autodownExample:
- - Autoexecutabl example of a downloader made using ADScriptGen
- - THIS WILL NOT WORK UNTIL YOU EDIT INSIDE AN IDE AND ADD YOUR OWN FTP ADDRESS/USER/PASSWORD/FILEPATH.
+ - Autoexecutable example of a downloader made using ADScriptGen
+ - THIS WILL NOT WORK UNTIL YOU EDIT THE CODE AND ADD YOUR OWN FTP ADDRESS/USER/PASSWORD/FILEPATH.
 
 4. ExampleCode.py:
  - Python code for the autodownExample file.
